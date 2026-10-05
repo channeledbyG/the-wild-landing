@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A free, one-page nature observation activity from The Wild Landing. Slow down, look closely, and notice a little wild.">
+  <title>A little wild noticing · The Wild Landing</title>
+  <style>
+    :root { color-scheme: light; --ink: #243b2e; --muted: #4a594c; --rule: #8f9a8d; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #edece5; font: 16px/1.5 Georgia, "Times New Roman", serif; }
+    .tools { max-width: 7.3in; margin: 24px auto 18px; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 20px; font: 14px/1.4 system-ui, sans-serif; }
+    .tools a { color: var(--ink); text-underline-offset: 4px; }
+    button { min-height: 44px; padding: 11px 18px; border: 1px solid var(--ink); border-radius: 3px; color: #fff; background: var(--ink); font: inherit; cursor: pointer; }
+    a:focus-visible, button:focus-visible { outline: 3px solid #a16c30; outline-offset: 5px; }
+    .sheet { width: calc(100% - 32px); max-width: 7.3in; margin: 0 auto 32px; padding: 0.36in 0.4in; background: #fff; box-shadow: 0 8px 28px #243b2e14; }
+    header { position: relative; padding-right: 56px; border-bottom: 1px solid var(--ink); padding-bottom: 18px; }
+    .eyebrow { margin: 0 0 9px; font: 10px/1.5 system-ui, sans-serif; letter-spacing: 0.16em; text-transform: uppercase; }
+    h1 { margin: 0 0 8px; font-size: 34px; line-height: 1.15; font-weight: 400; letter-spacing: -0.035em; }
+    .intro { margin: 0; font-size: 14px; color: var(--muted); }
+    .pine { position: absolute; right: 0; top: 12px; width: 38px; height: 67px; }
+    .about-you { display: flex; gap: 28px; margin: 22px 0 26px; font: 12px/1.5 system-ui, sans-serif; }
+    .blank { display: flex; gap: 9px; align-items: baseline; flex: 1; }
+    .blank:last-child { flex: 0.65; }
+    .line { display: block; flex: 1; height: 1em; border-bottom: 1px solid var(--rule); }
+    .noticing { display: grid; grid-template-columns: 32px 1fr; column-gap: 12px; margin-bottom: 19px; break-inside: avoid; }
+    .number { font-size: 27px; line-height: 1.1; font-style: italic; }
+    h2 { margin: 0; font-size: 17px; line-height: 1.5; font-weight: 400; }
+    .writing-lines { margin-top: 4px; }
+    .writing-lines span { display: block; height: 27px; border-bottom: 1px solid var(--rule); }
+    .drawing { margin: 25px 0 0; break-inside: avoid; }
+    .drawing h2 { margin-bottom: 9px; }
+    .drawing-box { height: 2.4in; border: 1px solid var(--rule); border-radius: 3px; }
+    .drawing figcaption { margin-top: 7px; color: var(--muted); font: 11px/1.5 system-ui, sans-serif; }
+    footer { margin-top: 24px; padding-top: 12px; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; align-items: start; gap: 18px; font: 10px/1.6 system-ui, sans-serif; color: var(--muted); }
+    footer p { margin: 0; }
+    .brand { white-space: nowrap; letter-spacing: 0.08em; text-transform: uppercase; }
+    @media (max-width: 500px) {
+      .tools { padding: 0 16px; gap: 12px; font-size: 12px; }
+      .sheet { padding: 25px 22px; }
+      h1 { font-size: 28px; }
+      .about-you { gap: 18px; }
+      footer { flex-direction: column; gap: 8px; }
+    }
+    @page { size: auto; margin: 0.55in; }
+    @media print {
+      body { background: #fff; }
+      .tools { display: none; }
+      .sheet { width: 100%; max-width: 7.3in; margin: 0 auto; padding: 0; box-shadow: none; }
+      h1 { font-size: 30px; }
+      .about-you { margin: 20px 0 23px; }
+      .noticing { margin-bottom: 17px; }
+      .drawing { margin-top: 22px; }
+      footer { flex-direction: row; gap: 18px; margin-top: 21px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="tools" aria-label="Activity actions">
+    <a href="../../index.html#little-wilds">← Back to Little Wilds</a>
+    <button type="button" onclick="window.print()">Print this page</button>
+  </nav>
+  <main class="sheet">
+    <header>
+      <p class="eyebrow">The Wild Landing · Little Wilds</p>
+      <h1>A little wild noticing</h1>
+      <p class="intro">Find a quiet spot. Take a slow breath. What is waiting to be noticed?</p>
+      <svg class="pine" viewBox="0 0 40 72" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 3 9 24h8L5 43h11L2 62h36L24 43h11L23 24h8L20 3ZM20 62v8"/>
+      </svg>
+    </header>
+    <div class="about-you" aria-label="Write your name and today's date on the lines">
+      <div class="blank">Name <span class="line" aria-hidden="true"></span></div>
+      <div class="blank">Date <span class="line" aria-hidden="true"></span></div>
+    </div>
+    <section class="noticing" aria-labelledby="see-heading">
+      <span class="number" aria-hidden="true">3</span>
+      <div>
+        <h2 id="see-heading">3 things I can see</h2>
+        <div class="writing-lines" aria-label="Three blank writing lines"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+    <section class="noticing" aria-labelledby="hear-heading">
+      <span class="number" aria-hidden="true">2</span>
+      <div>
+        <h2 id="hear-heading">2 sounds I can hear</h2>
+        <div class="writing-lines" aria-label="Two blank writing lines"><span></span><span></span></div>
+      </div>
+    </section>
+    <section class="noticing" aria-labelledby="feel-heading">
+      <span class="number" aria-hidden="true">1</span>
+      <div>
+        <h2 id="feel-heading">1 texture I can feel</h2>
+        <div class="writing-lines" aria-label="One blank writing line"><span></span></div>
+      </div>
+    </section>
+    <figure class="drawing">
+      <h2>Something that caught my eye</h2>
+      <div class="drawing-box" role="img" aria-label="An empty box for your nature drawing"></div>
+      <figcaption>Draw it, give it a name, or imagine its story.</figcaption>
+    </figure>
+    <footer>
+      <p>Notice living things where they are.<br>Explore with a grown-up.</p>
+      <p class="brand">A little curious. A little wild.</p>
+    </footer>
+  </main>
+</body>
+</html>

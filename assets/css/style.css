@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+:root{--forest:#10281f;--deep:#091d17;--pine:#1c382b;--cream:#f4ecd8;--paper:#e9ddbf;--amber:#d9a85d;--ink:#213629;--muted:#b9c8b6;--line:rgba(231,205,153,.3);font-family:'DM Sans',Arial,sans-serif;color:var(--cream);background:var(--forest);scroll-behavior:smooth}*{box-sizing:border-box}body{margin:0;min-width:320px}img{max-width:100%;display:block}a{color:inherit}button,input{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;line-height:.98;font-weight:600}h2{font-size:clamp(2.8rem,5vw,5.4rem);letter-spacing:-.025em}h3{font-size:2rem}em{font-weight:400;color:var(--amber)}p{line-height:1.65}.wrap{width:min(1200px,calc(100% - 3rem));margin-inline:auto}.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.21em;text-transform:uppercase;color:var(--amber);line-height:1.4}.fineprint{font-size:.9rem;opacity:.8}.skip-link{position:absolute;z-index:100;left:1rem;top:-4rem;background:var(--cream);color:var(--forest);padding:.7rem 1rem}.skip-link:focus{top:1rem}:focus-visible{outline:3px solid #e4be75;outline-offset:4px}.site-header{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:2rem;padding:.7rem max(1.5rem,calc((100vw - 1200px)/2));background:rgba(12,34,25,.97);border-bottom:1px solid var(--line);min-height:76px}.brand{display:inline-flex;align-items:center;gap:.65rem;text-decoration:none;white-space:nowrap}.brand-mark{display:grid;place-items:center;width:2.5rem;height:2.5rem;border:1px solid var(--amber);border-radius:50%;color:var(--amber);font-size:1.2rem}.brand small{display:block;letter-spacing:.4em;font-size:.55rem;line-height:1.1}.brand strong{display:block;font:600 1.38rem/.95 'Cormorant Garamond',Georgia,serif;letter-spacing:.06em}.site-nav{display:flex;align-items:center;gap:clamp(.55rem,1.25vw,1.2rem)}.site-nav a{text-decoration:none;font-size:.76rem;white-space:nowrap;color:#e8e7d8}.site-nav a:hover{text-decoration:underline;text-decoration-color:var(--amber);text-underline-offset:.35rem}.menu-toggle{display:none;border:1px solid var(--amber);background:transparent;color:var(--cream);padding:.6rem .8rem;border-radius:3px}.hero{min-height:min(850px,calc(100svh - 76px));position:relative;display:grid;place-items:center;text-align:center;overflow:hidden;background:var(--deep)}.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 54%}.hero-vignette{position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,21,15,.48),rgba(5,21,15,.18) 40%,rgba(7,25,18,.13) 72%,rgba(6,22,15,.8)),radial-gradient(ellipse at center,rgba(4,16,13,.65),transparent 55%)}.hero-content{position:relative;padding:4rem 1.5rem 6rem;text-shadow:0 2px 18px #07110d}.hero h1{font-size:clamp(4.2rem,10vw,10rem);line-height:.75;max-width:1050px;margin:1.2rem auto 1.6rem;letter-spacing:-.05em}.hero h1 span{display:block;font-size:.34em;letter-spacing:.09em;font-weight:400;font-style:italic;margin-bottom:.4em}.hero-tagline{font:italic clamp(1.3rem,2.3vw,2rem) 'Cormorant Garamond',Georgia,serif;letter-spacing:.03em;color:var(--cream)}.button{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:.85rem 1.35rem;text-decoration:none;border:1px solid transparent;text-align:center;font-size:.82rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;line-height:1.35}.button-light{background:var(--cream);color:var(--deep)}.button-light:hover{background:white}.button-amber{background:var(--amber);color:#17251c}.button-amber:hover{background:#f4c77c}.button-forest{background:var(--forest);color:var(--cream)}.hero-scroll{position:absolute;bottom:1.2rem;z-index:1;text-decoration:none;font-size:.77rem;letter-spacing:.12em;text-transform:uppercase}.property-note{padding:.95rem 1.5rem;text-align:center;background:#d6a660;color:#1c2a20;font-size:.87rem;letter-spacing:.03em}.property-note span{margin:0 1rem}.paper{background:var(--cream);color:var(--ink)}.map-intro{text-align:center;padding:6.5rem 1.5rem 5rem;max-width:none;width:100%;background:var(--cream)}.map-intro h2{margin-bottom:1rem}.map-intro p:last-child{max-width:640px;margin:0 auto}.map-intro .eyebrow{color:#6c4e25}.path-world{position:relative;padding:4rem 0;background:linear-gradient(90deg,#112c21 0,#1d3b2e 50%,#112c21 100%)}.path-world:before{content:'';position:absolute;top:0;bottom:0;left:50%;width:2px;transform:translateX(-50%);background:repeating-linear-gradient(to bottom,transparent 0 24px,rgba(223,184,119,.55) 24px 45px);pointer-events:none}.destination{position:relative;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;width:min(1200px,calc(100% - 3rem));margin:0 auto 5rem;min-height:440px;box-shadow:0 20px 50px rgba(3,19,12,.25)}.destination:last-child{margin-bottom:0}.stop-right .stop-art{order:2}.stop-art{min-height:440px;height:100%;position:relative;background-image:linear-gradient(180deg,transparent 72%,rgba(4,21,14,.8)),none;background-repeat:no-repeat;background-size:auto,auto 135%;border:1px solid var(--line)}.art-store{background-position:center,18% 39%}.art-bakehouse{background-position:center,39% 45%}.art-wilds{background-position:center,1% 6%}.art-garden{background-position:center,65% 46%}.art-woods{background-position:center,65% 10%;filter:saturate(.8)}.art-lantern{background-position:center,4% 78%}.art-cottage{background-position:center,100% 75%}.scene-caption{position:absolute;left:1.3rem;bottom:1.3rem;font-size:.76rem;font-weight:700;letter-spacing:.18em;color:#f7e4be}.stop-copy{align-self:stretch;display:flex;flex-direction:column;justify-content:center;padding:clamp(2rem,5vw,5rem);background:#153226;border:1px solid var(--line)}.stop-copy h2{margin:0 0 1.25rem}.stop-copy p{max-width:530px}.stop-copy .button{align-self:flex-start;margin:.6rem 0 1rem}.text-button{align-self:flex-start;border:0;border-bottom:1px solid var(--amber);padding:.4rem 0;background:none;color:var(--amber);font-size:.93rem;font-weight:700;text-decoration:none;text-align:left}.text-button:hover{color:#f6d593}.treehouse .stop-copy{background:#284334}.woods .stop-copy{background:#0b241d}.radio-section{background:#0b211b;padding:6rem 0;border-top:1px solid var(--line)}.radio-section h2{margin-bottom:1rem}.section-intro{max-width:700px}.radio-layout{display:grid;grid-template-columns:1fr .82fr;gap:3rem;align-items:start;margin-top:3rem}.songs{border:1px solid var(--line);padding:2rem;background:rgba(228,208,167,.05)}.songs h3,.radio-cabinet h3{margin:0 0 1.4rem}.song-list{list-style:none;padding:0;margin:0;counter-reset:song}.song-list li{display:grid;grid-template-columns:2rem 1fr;gap:0 .65rem;padding:.55rem 0;border-top:1px solid var(--line);counter-increment:song}.song-list li:before{content:counter(song,decimal-leading-zero);grid-row:span 2;color:var(--amber);font-size:.8rem;padding-top:.15rem}.song-list strong{font:600 1.38rem 'Cormorant Garamond',Georgia,serif}.song-list span{font-size:.8rem;color:#c4cabe}.radio-cabinet{background:#704a2d;color:#fff4de;border:10px ridge #a37848;border-radius:13px;padding:1.5rem;box-shadow:inset 0 0 0 2px #d1aa72,0 24px 40px #081911}.radio-top{display:flex;justify-content:space-between;font-size:.7rem;letter-spacing:.2em;border-bottom:1px solid #d9b887;padding-bottom:1rem;margin-bottom:1.5rem}.radio-display{background:#d6bf91;color:#263527;padding:1rem 1.2rem;margin-bottom:1rem;border:5px inset #b48c5b;min-height:94px}.radio-display .eyebrow{color:#614a27}.radio-display p{margin:.5rem 0 0}.radio-play{width:100%;padding:.85rem;border:0;background:var(--cream);color:#2f3324;font-weight:700}.radio-play span:first-child{margin-right:.6rem}.station-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}.station-row button{flex:1;min-width:110px;border:1px solid #e0bb81;background:#4f3727;color:#fff4e2;padding:.7rem;font-size:.8rem}.station-row button[aria-pressed=true]{background:#e7bd79;color:#2d2b1f;font-weight:700}.volume-row{display:flex;gap:1rem;align-items:center;margin-top:1rem}.volume-row input{flex:1;accent-color:#e7bd79}.future-note{margin-top:2rem;font-size:.86rem;color:#b9c8b6}.lantern-section,.cottage-section{margin:0;width:100%;grid-template-columns:1fr 1fr}.lantern-section .stop-art,.cottage-section .stop-art{min-height:490px}.lantern-section .stop-copy{background:#102a22}.cottage-section .stop-copy{background:#213729}.lantern-links{display:grid;gap:.5rem;margin:.8rem 0}.lantern-links span{border-left:2px solid var(--amber);padding:.6rem .8rem;background:rgba(255,255,255,.04)}.lantern-links small{display:block;color:#cbbf9b;margin-top:.25rem}.support-section{padding:6rem 0}.support-section .eyebrow{color:#785722}.support-section em{color:#84612d}.support-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin:2.5rem 0}.support-grid article{border:1px solid #bfa97d;padding:2rem;background:#fff8e7}.fund-icon{color:#966929}.support-grid h3{margin:1rem 0}.fund-status{display:inline-block;padding:.55rem .8rem;background:#e4d5ad;color:#35432e;font-size:.82rem;font-weight:700}.founders-path{border-top:1px solid #bfa97d;padding-top:1.5rem}.founders-path h3{font-size:2.2rem;margin-bottom:.7rem}.house-section{background:#10291f;padding:6rem 0}.house-inner{display:grid;grid-template-columns:.9fr 1.1fr;gap:5rem;align-items:center}.house-inner p:not(.eyebrow){max-width:570px}.house-image{min-height:420px;background:none 97% 34%/auto 160%;border:7px solid #c3a773;box-shadow:0 20px 40px #061a11}.site-footer{background:#081b14;padding:3.5rem 0 2rem}.footer-phrase{text-align:center;color:var(--amber);font:600 clamp(1.7rem,3vw,3rem) 'Cormorant Garamond',Georgia,serif;letter-spacing:.08em}.footer-row{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--line);padding-top:1.5rem;font-size:.8rem}.destination-dialog{position:fixed;inset:0;margin:auto;width:min(650px,calc(100% - 2rem));max-height:calc(100% - 2rem);border:2px solid #bd9a60;padding:3rem;background:var(--cream);color:var(--ink);box-shadow:0 20px 100px #001a0f;overflow:auto}.destination-dialog::backdrop{background:rgba(3,19,13,.8)}.destination-dialog h2{font-size:clamp(2.6rem,6vw,4.3rem)}.destination-dialog .eyebrow{color:#775b30}.dialog-close{position:absolute;right:1rem;top:1rem;background:none;border:0;color:var(--ink)}.room-content .button{margin:1rem 0}.room-note{padding:1rem;border-left:3px solid #a57e46;background:#f8eed7}.trail-options{display:grid;gap:.5rem}.trail-options button{padding:.8rem;border:1px solid #a57e46;background:#f8eed7;text-align:left;color:var(--ink)}@media(max-width:1100px){.site-header{gap:1rem}.site-nav{gap:.55rem}.site-nav a{font-size:.7rem}}@media(max-width:880px){.site-header{min-height:64px}.menu-toggle{display:block}.js .site-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#0d2a20;padding:1rem 1.5rem;box-shadow:0 15px 25px #061a14;max-height:75vh;overflow:auto}.js .site-nav.is-open{display:grid;grid-template-columns:repeat(2,1fr);gap:.3rem 1rem}.site-nav a{padding:.7rem .2rem;font-size:.9rem}.hero{min-height:76svh}.destination{grid-template-columns:1fr;min-height:0}.stop-right .stop-art{order:0}.stop-art{min-height:330px;background-size:auto,cover}.radio-layout,.house-inner{grid-template-columns:1fr}.lantern-section,.cottage-section{width:100%;grid-template-columns:1fr}.house-image{min-height:380px}.path-world:before{left:1rem}}@media(max-width:600px){.wrap{width:min(100% - 2rem,1200px)}.brand strong{font-size:1.15rem}.hero{min-height:80svh}.hero>img{object-position:50% 50%}.hero h1{font-size:clamp(4rem,19vw,6.8rem)}.hero-content{padding:3rem 1rem 5rem}.hero-vignette{background:linear-gradient(180deg,rgba(4,21,15,.75),rgba(4,21,15,.2) 55%,rgba(4,21,15,.8))}.hero-scroll{font-size:.69rem}.property-note span{display:none}.map-intro{padding:4rem 1rem}.path-world{padding:2rem 0}.destination{width:calc(100% - 2rem);margin-bottom:2.5rem}.stop-art{min-height:290px}.stop-copy{padding:2rem}.radio-section,.support-section,.house-section{padding:4rem 0}.radio-layout{gap:1.5rem}.songs,.radio-cabinet{padding:1.2rem}.station-row button{min-width:100px}.support-grid{grid-template-columns:1fr}.house-inner{gap:2rem}.house-image{min-height:290px}.footer-row{flex-direction:column;align-items:center}.destination-dialog{padding:3rem 1.2rem 1.5rem}}@media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}}
+
+/* Approved entrance: the full road-facing image is never cropped. */
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+html.gated:not(.entered) .interior,html.gated:not(.entered) .site-footer,html.gated:not(.entered) .site-nav,html.gated:not(.entered) .menu-toggle{display:none!important}
+html.gated.entered .entrance{display:none}
+html.gated:not(.entered) body{overflow:hidden}
+.entrance{display:flex;flex-direction:column;justify-content:center;min-height:calc(100svh - 76px);background:#0a1c16;transition:opacity .5s ease,transform .5s ease}
+.gate-image-link{display:block;width:100%;max-height:calc(100svh - 158px);overflow:hidden;line-height:0;align-self:center;text-decoration:none}
+.gate-image-link img{width:100%;height:auto;max-height:calc(100svh - 158px);object-fit:contain;object-position:center;display:block;margin:auto}
+.gate-action{display:flex;align-items:center;justify-content:center;min-height:82px;background:#0a1c16;padding:.65rem 1rem}
+.gate-enter{min-width:min(320px,100%)}
+html.gated.gate-transition .entrance{opacity:0;transform:scale(1.025)}
+html.gated.gate-transition body{background:#07150f}
+/* Destinations remain functional text stops until their individual approved art arrives. */
+.path-world:before{display:none}
+.destination,.lantern-section,.cottage-section{grid-template-columns:1fr;width:min(960px,calc(100% - 2rem));margin:0 auto 2rem;min-height:0}
+.destination .stop-copy{padding:clamp(2rem,5vw,4rem)}
+.house-inner{grid-template-columns:1fr;max-width:960px}
+@media(max-width:880px){.entrance{min-height:calc(100svh - 64px)}.gate-image-link,.gate-image-link img{max-height:calc(100svh - 146px)}}
+@media(max-width:600px){.entrance{justify-content:flex-start;gap:0;min-height:calc(100svh - 64px);padding-top:clamp(2rem,8svh,5rem)}.gate-image-link,.gate-image-link img{max-height:none}.gate-action{min-height:92px}.destination,.lantern-section,.cottage-section{width:calc(100% - 2rem)}}
+@media(prefers-reduced-motion:reduce){.entrance{transition:none}}
+
+/* Scene 02: supplied artwork is the interface; geometry follows the 1672 × 941 source. */
+html.gated:not(.entered) .arrival,html.gated.exploring .arrival{display:none}
+html.gated.entered:not(.exploring) .interior{display:none}
+html.gated.entered .site-footer{display:none}
+.arrival{min-height:calc(100svh - 76px);display:flex;flex-direction:column;align-items:center;justify-content:center;background:#0a1c16}
+.arrival-stage{position:relative;width:min(100%,1320px);line-height:0;aspect-ratio:1672 / 941}
+.arrival-stage>img{width:100%;height:100%;object-fit:contain;display:block}
+.scene-hotspot{position:absolute;display:block;border:0;border-radius:2px;background:transparent;padding:0;cursor:pointer}
+.scene-hotspot:hover{background:rgba(255,226,153,.16);box-shadow:inset 0 0 0 2px rgba(255,233,183,.7)}
+.scene-hotspot:focus-visible{outline:3px solid #fff2c7;outline-offset:2px;background:rgba(255,228,172,.2)}
+.scene-hop{left:28%;top:77%;width:19.5%;height:16%}
+.scene-foot{left:48%;top:77%;width:21.5%;height:16%}
+.sign-house{left:74.5%;top:16.5%;width:17%;height:7.6%}
+.sign-treehouse{left:75.8%;top:24%;width:15.8%;height:6.7%}
+.sign-store-bake{left:74.5%;top:30.6%;width:17.4%;height:6.6%}
+.sign-garden{left:76.3%;top:37.4%;width:15.5%;height:6.6%}
+.sign-woods{left:74.5%;top:44%;width:17%;height:6.6%}
+.sign-lantern{left:74.6%;top:50.7%;width:17.2%;height:6.6%}
+.sign-radio{left:77%;top:57.4%;width:14.5%;height:6.6%}
+.sign-cottage{left:75.2%;top:64%;width:17%;height:6.6%}
+.mobile-signpost{display:none}
+.arrival-caption{font-size:.85rem;text-align:center;color:#ddd7bf;margin:.8rem 1rem 1.1rem;line-height:1.3}
+.arrival-access{display:none}
+.room-toolbar{display:none}
+html.gated.exploring .room-toolbar{display:flex;align-items:center;justify-content:space-between;gap:1rem;max-width:960px;margin:auto;padding:1rem;color:var(--cream)}
+.room-toolbar button{background:none;color:var(--amber);border:0;border-bottom:1px solid var(--amber);padding:.45rem 0;font-weight:700}
+.room-toolbar span{font-size:.8rem;color:#c2c9b9}
+html.gated.exploring .interior>.property-note,html.gated.exploring .interior>.map-intro,html.gated.exploring .interior>.path-world:not(.has-current),html.gated.exploring .interior>.radio-section:not(.is-current),html.gated.exploring .interior>.destination:not(.is-current),html.gated.exploring .interior>.support-section:not(.is-current),html.gated.exploring .interior>.house-section:not(.is-current){display:none}
+html.gated.exploring .path-world .destination:not(.is-current){display:none}
+html.gated.exploring .path-world{padding:1rem 0 2rem}
+html.gated.exploring .destination.is-current{display:grid}
+html.gated.exploring .interior>.destination.is-current{margin:0 auto 2rem}
+.travel-dialog{position:fixed;inset:0;margin:auto;width:min(680px,calc(100% - 2rem));max-height:calc(100% - 2rem);overflow:auto;background:var(--cream);color:var(--ink);border:2px solid #bd9a60;padding:2.5rem;box-shadow:0 20px 100px #001a0f}
+.travel-dialog::backdrop{background:rgba(2,15,11,.78)}
+.travel-dialog .eyebrow{color:#775b30}
+.travel-dialog h2{font-size:clamp(2.5rem,5vw,4rem);margin-bottom:.7rem}
+.travel-close{position:absolute;right:1rem;top:1rem;background:none;border:0;color:var(--ink)}
+.travel-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.3rem;margin-top:1.2rem}
+.travel-options button{padding:.9rem .2rem;text-align:left;background:none;border:0;border-bottom:1px solid #bdad8b;color:var(--ink);font-weight:600}
+.travel-options button:hover{color:#896321;background:#f5e8ca}
+.travel-options button[hidden]{display:none}
+@media(max-width:900px){.scene-sign{display:none}.mobile-signpost{display:block;left:74%;top:16%;width:21%;height:56%}.scene-hop,.scene-foot{min-height:44px}.arrival-access{display:flex;justify-content:center;flex-wrap:wrap;gap:.5rem;width:100%;padding:1rem}.arrival-access button{border:1px solid var(--amber);background:transparent;color:var(--cream);padding:.7rem .8rem;font-size:.75rem;font-weight:700;letter-spacing:.04em}.arrival-caption{max-width:430px;margin:0 auto 1rem;padding:0 1rem}.arrival{min-height:calc(100svh - 64px);justify-content:flex-start;padding-top:clamp(2rem,8svh,5rem)}}
+@media(max-width:600px){.travel-dialog{padding:2.5rem 1.2rem 1.2rem}.travel-options{grid-template-columns:1fr}.room-toolbar span{display:none}}
+.foot-start{display:block;margin:.9rem 0;padding:.8rem 1rem;background:#153226;color:var(--cream);border:0;font-weight:700}
+.foot-start[hidden],#continue-foot[hidden]{display:none!important}
+html.gated.exploring .room-toolbar #continue-foot{margin-left:auto}
+
+/* Approved destination artwork remains whole; hotspots sit over the pictured doors. */
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.approved-scene{width:min(1672px,100%)!important;margin:0 auto!important;min-height:0;box-shadow:none}
+html.gated.exploring .destination.approved-scene.is-current{display:block}
+.approved-scene-stage{position:relative;width:100%;aspect-ratio:1672 / 941}
+.approved-scene-stage img{width:100%;height:100%;object-fit:contain}
+.approved-scene-hotspot{position:absolute;display:block;border:0;background:transparent;color:transparent;cursor:pointer;border-radius:4px}
+.approved-scene-hotspot:hover,.approved-scene-hotspot:focus-visible{outline:3px solid #f8d48b;outline-offset:2px;background:rgba(255,222,150,.09)}
+.store-door{left:51%;top:37%;width:19%;height:38%}
+.bakehouse-door{left:44%;top:35%;width:28%;height:38%}
+.scene-access{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;padding:.65rem max(1rem,calc((100% - 960px)/2));background:#10281f;color:var(--cream);font-size:.85rem;letter-spacing:.04em}
+.scene-access a,.scene-access button{background:none;border:0;border-bottom:1px solid var(--amber);padding:.35rem 0;color:var(--amber);font-size:inherit;font-weight:700;text-decoration:none;cursor:pointer}
+@media(max-width:600px){.scene-access{justify-content:center;text-align:center}.scene-access span:first-child{width:100%}}
+
+/* Invisible hit areas are registered to the signs painted into the approved art. */
+.painted-sign{z-index:2}
+.store-sign{left:1.5%;width:17.5%;height:6.2%}
+.store-sign-treehouse{top:15.0%}
+.store-sign-bakehouse{top:22.0%}
+.store-sign-garden{top:28.8%}
+.store-sign-woods{top:35.5%}
+.store-sign-lantern{top:42.2%}
+.store-sign-radio{top:49.0%}
+.store-sign-cottage{top:55.7%}
+.store-sign-house{top:62.4%}
+.bake-sign{left:1.5%;width:17.5%;height:6.7%}
+.bake-sign-store{top:18.5%}
+.bake-sign-treehouse{top:25.8%}
+.bake-sign-garden{top:33.0%}
+.bake-sign-arrival{top:40.2%}
+.mobile-painted-sign{display:none}
+.store-signpost{left:1.5%;top:15%;width:18%;height:54%}
+.bake-signpost{left:1.5%;top:18.5%;width:18%;height:29%}
+@media(max-width:900px){.painted-sign:not(.mobile-painted-sign){display:none}.mobile-painted-sign{display:block}}
+
+/* Scene 05 uses its original 3:2 canvas so every painted object stays visible. */
+.treehouse-stage{aspect-ratio:1536 / 1024}
+.treehouse-entrance{left:42%;top:36%;width:20%;height:31%}
+.tree-sign{left:1.5%;width:18%;height:6.2%}
+.tree-sign-store{top:18.6%}
+.tree-sign-bakehouse{top:24.9%}
+.tree-sign-garden{top:31.4%}
+.tree-sign-woods{top:37.8%}
+.tree-sign-lantern{top:44.2%}
+.tree-sign-radio{top:50.7%}
+.tree-sign-cottage{top:57.1%}
+.tree-sign-arrival{top:63.5%}
+.tree-signpost{left:1.5%;top:18.6%;width:18%;height:51.5%}
+
+/* Scene 06: the exact Garden image and hit areas over its pictured objects. */
+.garden-stage{aspect-ratio:1536 / 1024}
+.garden-greenhouse{left:61%;top:30%;width:13%;height:27%}
+.garden-seed-library{left:85%;top:34%;width:13%;height:25%}
+.garden-sign{left:1.2%;width:19%;height:5.9%}
+.garden-sign-store{top:13.1%}
+.garden-sign-bakehouse{top:19.5%}
+.garden-sign-treehouse{top:25.8%}
+.garden-sign-woods{top:32.2%}
+.garden-sign-lantern{top:38.4%}
+.garden-sign-radio{top:44.7%}
+.garden-sign-cottage{top:51.0%}
+.garden-sign-arrival{top:57.3%}
+.garden-signpost{left:1.2%;top:13.1%;width:19%;height:50.1%}
+
+/* Scene 07 keeps both painted signposts aligned to the original 3:2 artwork. */
+.woods-stage{aspect-ratio:1536 / 1024}
+.woods-sign{left:1.5%;width:19%;height:5.7%}
+.woods-sign-store{top:14.2%}
+.woods-sign-bakehouse{top:20.4%}
+.woods-sign-treehouse{top:26.6%}
+.woods-sign-garden{top:32.8%}
+.woods-sign-lantern{top:39.0%}
+.woods-sign-radio{top:45.2%}
+.woods-sign-cottage{top:51.4%}
+.woods-sign-arrival{top:57.6%}
+.woods-property-signpost{left:1.5%;top:14.2%;width:19%;height:49.1%}
+.woods-trail{left:58.5%;width:13.7%;height:5.6%}
+.woods-trail-lantern{top:32.0%}
+.woods-trail-creek{top:37.7%}
+.woods-trail-wildlife{top:43.4%}
+.woods-trail-lookout{top:49.1%}
+.woods-trail-signpost{left:58.5%;top:32%;width:13.7%;height:22.7%}
+
+/* Scene 08 keeps its approved image primary while retaining the original player below on entry. */
+.approved-radio-scene{padding:0}
+.radio-stage{aspect-ratio:1536 / 1024}
+.approved-radio-scene .radio-experience{display:none}
+.approved-radio-scene.is-open .radio-experience{display:block;padding-block:4rem}
+.radio-sign{left:1.2%;width:18.5%;height:5.3%}
+.radio-sign-store{top:12.0%}
+.radio-sign-bakehouse{top:17.6%}
+.radio-sign-treehouse{top:23.2%}
+.radio-sign-garden{top:28.8%}
+.radio-sign-woods{top:34.4%}
+.radio-sign-lantern{top:40.0%}
+.radio-sign-cottage{top:50.9%}
+.radio-sign-arrival{top:56.5%}
+.radio-signpost{left:1.2%;top:12%;width:18.5%;height:49.8%}
+.radio-studio-door{left:49%;top:35%;width:19%;height:36%}
+.radio-now-playing{left:74.4%;top:35.5%;width:9%;height:11%}
+
+/* The Lantern cottage: navigation is aligned with the signs painted into the approved art. */
+.lantern-stage{aspect-ratio:1536 / 1024}
+.lantern-sign{left:1%;width:19%;height:5.3%}
+.lantern-sign-store{top:11.5%}
+.lantern-sign-bakehouse{top:16.9%}
+.lantern-sign-treehouse{top:22.3%}
+.lantern-sign-garden{top:27.7%}
+.lantern-sign-woods{top:33.1%}
+.lantern-sign-radio{top:38.5%}
+.lantern-sign-cottage{top:43.9%}
+.lantern-sign-arrival{top:49.3%}
+.lantern-signpost{left:1%;top:11.5%;width:19%;height:43.1%}
+.lantern-door{left:49%;top:28%;width:15%;height:37%}
+
+/* Scene 10 uses the untouched approved artwork; three hotspots follow pictured features. */
+.cat-cottage-stage{aspect-ratio:1536 / 1024}
+.cat-cottage-door{left:39.5%;top:26%;width:12%;height:32%}
+.cat-cottage-purpose{left:81.8%;top:64.3%;width:17.8%;height:7.4%}
+.cat-cottage-support{left:81.8%;top:71.8%;width:17.8%;height:7.4%}
+
+/* Scene 11: the House, signpost, jar and Founders' Path use the supplied art untouched. */
+.house-stage{aspect-ratio:1536 / 1024}
+.house-sign{left:1.3%;width:17.8%;height:5.4%}
+.house-sign-store{top:12.2%}
+.house-sign-bakehouse{top:17.7%}
+.house-sign-treehouse{top:23.2%}
+.house-sign-garden{top:28.7%}
+.house-sign-woods{top:34.2%}
+.house-sign-radio{top:39.7%}
+.house-sign-cottage{top:45.2%}
+.house-sign-lantern{top:50.7%}
+.house-signpost{left:1.3%;top:12.2%;width:17.8%;height:43.9%}
+.house-door{left:56%;top:31%;width:9%;height:24%}
+.house-help-build{left:76.5%;top:47%;width:14%;height:25%}
+.house-founders{left:80%;top:73%;width:19%;height:23%}
+
+/* Scene 12 follows the corrected nearby-destination geography in the Barn artwork. */
+.barn-stage{aspect-ratio:1536 / 1024}
+.barn-sign{left:3.2%;width:19.5%;height:4.8%}
+.barn-sign-garden{top:18.2%}
+.barn-sign-treehouse{top:22.8%}
+.barn-sign-store{top:28.5%}
+.barn-sign-bakehouse{top:33.0%}
+.barn-sign-woods{top:39.2%;height:6.2%}
+.barn-sign-crossroads{top:49.8%;height:7.4%}
+.barn-signpost{left:2.8%;top:17.4%;width:21%;height:41%}
+.barn-door{left:50.5%;top:34.2%;width:20.5%;height:33%}
+.barn-feed{left:35.5%;top:74.5%;width:11.5%;height:18.8%}
+
+/* Mobile support-flow controls: keep the close action visible and comfortable to tap. */
+@media(max-width:600px){
+  .destination-dialog[open]{display:flex;flex-direction:column;overflow:hidden}
+  .destination-dialog .dialog-close{position:relative;inset:auto;align-self:flex-end;flex:0 0 auto;min-width:44px;min-height:44px;padding:.5rem;display:grid;place-items:center;margin:0 0 .25rem}
+  #destination-content{min-height:0;overflow:auto;overscroll-behavior:contain}
+  #cat-cottage .cat-cottage-support{display:none}
+  #cat-cottage .scene-access button[data-go="support-cats"],
+  #house .scene-access button[data-destination="house-help"]{min-height:44px;padding:.65rem .35rem;display:inline-flex;align-items:center}
+}

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10281f">
+  <meta name="description" content="Enter The Wild Landing, a growing digital world of stories, nature, music and belonging.">
+  <title>The Wild Landing — Where wild hearts find a place to land.</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/images/main-entrance-approved.png">
+  <link rel="stylesheet" href="assets/css/style.css?v=mobile-flow-reviewed">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the property</a>
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="The Wild Landing home"><span class="brand-mark" aria-hidden="true">✦</span><span><small>THE</small><strong>WILD LANDING</strong></span></a>
+  <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Explore <span aria-hidden="true">☰</span></button>
+  <nav id="site-nav" class="site-nav" aria-label="Around The Wild Landing">
+    <a href="#store">Store</a><a href="#bakehouse">Bakehouse</a><a href="#little-wilds">Little Wilds</a><a href="#garden">Garden</a><a href="#woods">Woods &amp; Trails</a><a href="#radio">Radio</a><a href="#lantern">The Lantern</a><a href="#cat-cottage">Cat Cottage</a><a href="#house">Our Story</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero entrance" id="top" aria-labelledby="hero-title">
+    <h1 class="visually-hidden" id="hero-title">The Wild Landing — Where wild hearts find a place to land.</h1>
+    <a class="gate-image-link" href="#property" aria-label="Pass through the entrance gate into The Wild Landing">
+      <img src="assets/images/main-entrance-approved.png" alt="From the road, a large open timber gate marked THE WILD LANDING and Where wild hearts find a place to land. Lanterns light a winding drive that disappears into a vast wooded property beyond." width="1672" height="941" fetchpriority="high" loading="eager" decoding="async">
+    </a>
+    <div class="gate-action"><a class="button button-light gate-enter" href="#property">ENTER THE WILD LANDING</a></div>
+  </section>
+  <section class="arrival" id="arrival" aria-labelledby="arrival-title" tabindex="-1">
+    <h2 class="visually-hidden" id="arrival-title">Inside the gate — arrival and transport hub</h2>
+    <div class="arrival-stage">
+      <img src="assets/images/arrival-transport-approved.png" alt="Inside the gate at dusk: a Wild Landing golf cart waits beside a welcome sign. Two wooden signs say Hop In and Wander on Foot. A signpost points toward the House, Treehouse, Store and Bakehouse, Garden, Woods and Trails, Lantern, Radio, and Cat Cottage. A lantern-lit road continues into the wooded property." width="1672" height="941" loading="lazy" decoding="async">
+      <button class="scene-hotspot scene-hop" type="button" data-travel="cart" aria-label="HOP IN — take the golf cart and choose a destination"></button>
+      <button class="scene-hotspot scene-foot" type="button" data-travel="foot" aria-label="WANDER ON FOOT — choose a slower walking route"></button>
+      <button class="scene-hotspot scene-sign sign-house" type="button" data-go="house" aria-label="Follow the sign to The House and Our Story"></button>
+      <button class="scene-hotspot scene-sign sign-treehouse" type="button" data-go="little-wilds" aria-label="Follow the sign to Little Wilds and The Treehouse"></button>
+      <button class="scene-hotspot scene-sign sign-store-bake" type="button" data-travel="store-bake" aria-label="Follow the sign to the Store and Bakehouse"></button>
+      <button class="scene-hotspot scene-sign sign-garden" type="button" data-go="garden" aria-label="Follow the sign to the Garden"></button>
+      <button class="scene-hotspot scene-sign sign-woods" type="button" data-go="woods" aria-label="Follow the sign to Woods and Trails"></button>
+      <button class="scene-hotspot scene-sign sign-lantern" type="button" data-go="lantern" aria-label="Follow the sign to The Lantern"></button>
+      <button class="scene-hotspot scene-sign sign-radio" type="button" data-go="radio" aria-label="Follow the sign to The Wild Landing Radio"></button>
+      <button class="scene-hotspot scene-sign sign-cottage" type="button" data-go="cat-cottage" aria-label="Follow the sign to Senior Cat Cottage"></button>
+      <button class="scene-hotspot mobile-signpost" type="button" data-travel="signs" aria-label="Explore the destination signs"></button>
+    </div>
+    <div class="arrival-access" aria-label="Arrival choices"><button type="button" data-travel="cart">HOP IN</button><button type="button" data-travel="foot">WANDER ON FOOT</button><button type="button" data-travel="signs">DESTINATION SIGNS</button></div>
+    <p class="arrival-caption">You made it through the gate. From here, wander on foot or hop in the golf cart and choose where you'd like to go. There’s no wrong way to explore The Wild Landing.</p>
+  </section>
+  <div class="interior" id="interior">
+    <div class="room-toolbar"><button type="button" id="return-arrival">← Back to arrival</button><button type="button" id="continue-foot" hidden>Continue on foot</button><span>Return to the Arrival Hub to explore another path.</span></div>
+  <div class="property-note" id="property" tabindex="-1"><span aria-hidden="true">✦</span> A digital place to wander today. A real homestead is the dream we are building toward. <span aria-hidden="true">✦</span></div>
+  <section class="map-intro paper wrap" aria-labelledby="path-title">
+    <p class="eyebrow">A WALK AROUND THE WILD LANDING</p>
+    <h2 id="path-title">One path. Many places to belong.</h2>
+    <p>Come through the gate and follow the path. Each stop is part of the same growing world, with its own invitation to linger.</p>
+  </section>
+  <div class="path-world">
+    <section class="destination approved-scene" id="store" aria-labelledby="store-title">
+      <h2 class="visually-hidden" id="store-title">The Wild Landing Store</h2>
+      <div class="approved-scene-stage">
+        <img src="assets/images/the-wild-landing-store-approved.png" alt="The Wild Landing Store at dusk, with its open front entrance, warm lights, plants, animals and rustic signs." width="1672" height="941" loading="lazy" decoding="async">
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-treehouse" type="button" data-go="little-wilds" aria-label="TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-bakehouse" type="button" data-go="bakehouse" aria-label="STORE &amp; BAKEHOUSE sign — go to the Bakehouse"></button>
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-garden" type="button" data-go="garden" aria-label="GARDEN sign — go to the Garden"></button>
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-woods" type="button" data-go="woods" aria-label="WOODS &amp; TRAILS sign — go to Woods &amp; Trails"></button>
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-lantern" type="button" data-go="lantern" aria-label="THE LANTERN sign — go to The Lantern"></button>
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-radio" type="button" data-go="radio" aria-label="RADIO sign — go to Wild Landing Radio"></button>
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-cottage" type="button" data-go="cat-cottage" aria-label="CAT COTTAGE sign — go to Senior Cat Cottage"></button>
+        <button class="approved-scene-hotspot painted-sign store-sign store-sign-house" type="button" data-go="house" aria-label="THE HOUSE sign — go to The House / Our Story"></button>
+        <button class="approved-scene-hotspot painted-sign mobile-painted-sign store-signpost" type="button" data-travel="signs" aria-label="Explore the Store's destination signpost"></button>
+        <a class="approved-scene-hotspot store-door" href="https://the-wild-landing.printify.me" target="_blank" rel="noopener noreferrer" aria-label="Enter The Wild Landing Store through its front door; opens the current external shop in a new tab"></a>
+      </div>
+      <div class="scene-access"><span>03 / The Wild Landing Store</span><a href="https://the-wild-landing.printify.me" target="_blank" rel="noopener noreferrer">Enter the current shop <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens in a new tab)</span></a></div>
+    </section>
+    <section class="destination approved-scene" id="bakehouse" aria-labelledby="bakehouse-title">
+      <h2 class="visually-hidden" id="bakehouse-title">The Wild Landing Bakehouse</h2>
+      <div class="approved-scene-stage">
+        <img src="assets/images/the-wild-landing-bakehouse-approved.png" alt="The Wild Landing Bakehouse at dusk, with an open doorway and directional signs for the Store, Treehouse, Garden, and Arrival & Gate." width="1672" height="941" loading="lazy" decoding="async">
+        <button class="approved-scene-hotspot painted-sign bake-sign bake-sign-store" type="button" data-go="store" aria-label="THE STORE sign — go to The Wild Landing Store"></button>
+        <button class="approved-scene-hotspot painted-sign bake-sign bake-sign-treehouse" type="button" data-go="little-wilds" aria-label="THE TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+        <button class="approved-scene-hotspot painted-sign bake-sign bake-sign-garden" type="button" data-go="garden" aria-label="THE GARDEN sign — go to the Garden"></button>
+        <button class="approved-scene-hotspot painted-sign bake-sign bake-sign-arrival" type="button" data-return-arrival aria-label="ARRIVAL &amp; GATE sign — return to the Arrival Hub"></button>
+        <button class="approved-scene-hotspot painted-sign mobile-painted-sign bake-signpost" type="button" data-travel="bake-signs" aria-label="Explore the Bakehouse's directional signs"></button>
+        <button class="approved-scene-hotspot bakehouse-door" type="button" data-destination="bakehouse" aria-label="Enter the Bakehouse doorway to see what's coming soon"></button>
+      </div>
+      <div class="scene-access"><span>04 / The Wild Landing Bakehouse</span><button type="button" data-destination="bakehouse">Step inside <span aria-hidden="true">→</span></button></div>
+    </section>
+    <section class="destination approved-scene" id="little-wilds" aria-labelledby="wilds-title">
+      <h2 class="visually-hidden" id="wilds-title">Little Wilds / The Treehouse</h2>
+      <div class="approved-scene-stage treehouse-stage">
+        <img src="assets/images/the-wild-landing-treehouse-approved.png" alt="The Wild Landing Little Wilds treehouse at dusk, with a central entrance, rope bridge, creek, nature objects, and a painted directional signpost." width="1536" height="1024" loading="lazy" decoding="async">
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-store" type="button" data-go="store" aria-label="THE STORE sign — go to The Wild Landing Store"></button>
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-bakehouse" type="button" data-go="bakehouse" aria-label="BAKEHOUSE sign — go to the Bakehouse"></button>
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-garden" type="button" data-go="garden" aria-label="THE GARDEN sign — go to the Garden"></button>
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-woods" type="button" data-go="woods" aria-label="WOODS &amp; TRAILS sign — go to Woods &amp; Trails"></button>
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-lantern" type="button" data-go="lantern" aria-label="THE LANTERN sign — go to The Lantern"></button>
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-radio" type="button" data-go="radio" aria-label="RADIO sign — go to Wild Landing Radio"></button>
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-cottage" type="button" data-go="cat-cottage" aria-label="CAT COTTAGE sign — go to Senior Cat Cottage"></button>
+        <button class="approved-scene-hotspot painted-sign tree-sign tree-sign-arrival" type="button" data-return-arrival aria-label="ARRIVAL &amp; GATE sign — return to the Arrival Hub"></button>
+        <button class="approved-scene-hotspot painted-sign mobile-painted-sign tree-signpost" type="button" data-travel="tree-signs" aria-label="Explore the Treehouse directional signpost"></button>
+        <button class="approved-scene-hotspot treehouse-entrance" type="button" data-destination="little-wilds" aria-label="Enter the main Treehouse to explore Little Wilds"></button>
+      </div>
+      <div class="scene-access"><span>05 / Little Wilds · The Treehouse</span><button type="button" data-destination="little-wilds">Explore Little Wilds <span aria-hidden="true">→</span></button></div>
+    </section>
+    <section class="destination approved-scene" id="garden" aria-labelledby="garden-title">
+      <h2 class="visually-hidden" id="garden-title">The Wild Landing Garden</h2>
+      <div class="approved-scene-stage garden-stage">
+        <img src="assets/images/the-wild-landing-garden-approved.png" alt="The Wild Landing Garden at dusk, with a greenhouse, Seed Library, pond, plants, wildlife features, and a painted directional signpost." width="1536" height="1024" loading="lazy" decoding="async">
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-store" type="button" data-go="store" aria-label="THE STORE sign — go to The Wild Landing Store"></button>
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-bakehouse" type="button" data-go="bakehouse" aria-label="BAKEHOUSE sign — go to the Bakehouse"></button>
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-treehouse" type="button" data-go="little-wilds" aria-label="THE TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-woods" type="button" data-go="woods" aria-label="WOODS &amp; TRAILS sign — go to Woods &amp; Trails"></button>
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-lantern" type="button" data-go="lantern" aria-label="THE LANTERN sign — go to The Lantern"></button>
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-radio" type="button" data-go="radio" aria-label="RADIO sign — go to Wild Landing Radio"></button>
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-cottage" type="button" data-go="cat-cottage" aria-label="CAT COTTAGE sign — go to Senior Cat Cottage"></button>
+        <button class="approved-scene-hotspot painted-sign garden-sign garden-sign-arrival" type="button" data-return-arrival aria-label="ARRIVAL &amp; GATE sign — return to the Arrival Hub"></button>
+        <button class="approved-scene-hotspot painted-sign mobile-painted-sign garden-signpost" type="button" data-travel="garden-signs" aria-label="Explore the Garden directional signpost"></button>
+        <button class="approved-scene-hotspot garden-greenhouse" type="button" data-destination="garden" aria-label="Enter the greenhouse to open the temporary Garden panel"></button>
+        <button class="approved-scene-hotspot garden-seed-library" type="button" data-destination="seed-library" aria-label="Open the Seed Library information panel"></button>
+      </div>
+      <div class="scene-access"><span>06 / The Wild Landing Garden</span><button type="button" data-destination="garden">Explore the Garden <span aria-hidden="true">→</span></button><button type="button" data-destination="seed-library">Seed Library <span aria-hidden="true">→</span></button></div>
+    </section>
+    <section class="destination approved-scene" id="woods" aria-labelledby="woods-title">
+      <h2 class="visually-hidden" id="woods-title">The Wild Landing Woods &amp; Trails</h2>
+      <div class="approved-scene-stage woods-stage">
+        <img src="assets/images/the-wild-landing-woods-trails-approved.png" alt="Woods and Trails at dusk, with a stream, woodland path, wildlife, a left property signpost and a right trail signpost." width="1536" height="1024" loading="lazy" decoding="async">
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-store" type="button" data-go="store" aria-label="THE STORE sign — go to The Wild Landing Store"></button>
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-bakehouse" type="button" data-go="bakehouse" aria-label="BAKEHOUSE sign — go to the Bakehouse"></button>
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-treehouse" type="button" data-go="little-wilds" aria-label="THE TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-garden" type="button" data-go="garden" aria-label="THE GARDEN sign — go to the Garden"></button>
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-lantern" type="button" data-go="lantern" aria-label="THE LANTERN sign — go to The Lantern"></button>
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-radio" type="button" data-go="radio" aria-label="RADIO sign — go to Wild Landing Radio"></button>
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-cottage" type="button" data-go="cat-cottage" aria-label="CAT COTTAGE sign — go to Senior Cat Cottage"></button>
+        <button class="approved-scene-hotspot painted-sign woods-sign woods-sign-arrival" type="button" data-return-arrival aria-label="ARRIVAL &amp; GATE sign — return to the Arrival Hub"></button>
+        <button class="approved-scene-hotspot painted-sign mobile-painted-sign woods-property-signpost" type="button" data-travel="woods-signs" aria-label="Explore the Woods property destination signpost"></button>
+        <button class="approved-scene-hotspot painted-sign woods-trail woods-trail-lantern" type="button" data-destination="trails" data-trail="lantern" aria-label="Lantern Trail — trails coming soon"></button>
+        <button class="approved-scene-hotspot painted-sign woods-trail woods-trail-creek" type="button" data-destination="trails" data-trail="creek" aria-label="Creek Walk — trails coming soon"></button>
+        <button class="approved-scene-hotspot painted-sign woods-trail woods-trail-wildlife" type="button" data-destination="trails" data-trail="wildlife" aria-label="Wildlife Loop — trails coming soon"></button>
+        <button class="approved-scene-hotspot painted-sign woods-trail woods-trail-lookout" type="button" data-destination="trails" data-trail="lookout" aria-label="Lookout Trail — trails coming soon"></button>
+        <button class="approved-scene-hotspot painted-sign mobile-painted-sign woods-trail-signpost" type="button" data-travel="woods-trails" aria-label="Explore the four future trail signs"></button>
+      </div>
+      <div class="scene-access"><span>07 / Woods &amp; Trails</span><button type="button" data-destination="trails">Explore the trails <span aria-hidden="true">→</span></button></div>
+    </section>
+  </div>
+  <section class="radio-section approved-radio-scene" id="radio" aria-labelledby="radio-scene-title">
+    <h2 class="visually-hidden" id="radio-scene-title">The Wild Landing Radio studio</h2>
+    <div class="approved-scene-stage radio-stage">
+      <img src="assets/images/the-wild-landing-radio-approved.png" alt="The Wild Landing Radio studio at dusk, with an open doorway, a NOW PLAYING sign, and a left property signpost." width="1536" height="1024" loading="lazy" decoding="async">
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-store" type="button" data-go="store" aria-label="THE STORE sign — go to The Wild Landing Store"></button>
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-bakehouse" type="button" data-go="bakehouse" aria-label="BAKEHOUSE sign — go to the Bakehouse"></button>
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-treehouse" type="button" data-go="little-wilds" aria-label="THE TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-garden" type="button" data-go="garden" aria-label="THE GARDEN sign — go to the Garden"></button>
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-woods" type="button" data-go="woods" aria-label="WOODS &amp; TRAILS sign — go to Woods &amp; Trails"></button>
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-lantern" type="button" data-go="lantern" aria-label="THE LANTERN sign — go to The Lantern"></button>
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-cottage" type="button" data-go="cat-cottage" aria-label="CAT COTTAGE sign — go to Senior Cat Cottage"></button>
+      <button class="approved-scene-hotspot painted-sign radio-sign radio-sign-arrival" type="button" data-return-arrival aria-label="ARRIVAL &amp; GATE sign — return to the Arrival Hub"></button>
+      <button class="approved-scene-hotspot painted-sign mobile-painted-sign radio-signpost" type="button" data-travel="radio-signs" aria-label="Explore the Radio property destination signpost"></button>
+      <button class="approved-scene-hotspot radio-studio-door" type="button" data-open-radio aria-label="Enter the Radio studio and open its existing player and catalog"></button>
+      <button class="approved-scene-hotspot radio-now-playing" type="button" data-open-radio aria-label="NOW PLAYING sign — open the existing Radio player and catalog"></button>
+    </div>
+    <div class="scene-access"><span>08 / The Wild Landing Radio</span><button type="button" data-open-radio>Open Radio player and catalog <span aria-hidden="true">→</span></button></div>
+    <div class="wrap radio-experience"><p class="eyebrow">A PLACE TO LISTEN</p><h2 id="radio-title">The Wild Landing <em>Radio</em></h2><p class="section-intro">Songs from this growing world. The catalog is here; recordings will be added when their audio is ready to share on this site.</p>
+      <div class="radio-layout"><div class="songs"><h3>Published songs</h3><ol class="song-list"><li><strong>Chosen</strong><span>Written by Gypsy Cerys Thorne</span></li><li><strong>Anam Cara</strong><span>Written by Flame Vale</span></li><li><strong>Not Worth My Time</strong><span>Written by Gypsy Cerys Thorne</span></li><li><strong>I'm Already Here</strong><span>Written by Lumen Wild</span></li><li><strong>Yes, You Were Made Anyway</strong><span>Written by Gypsy Cerys Thorne</span></li><li><strong>All This Time</strong><span>Written by Lumen Wild</span></li><li><strong>The Lucky One</strong><span>Written by Gypsy Cerys Thorne</span></li><li><strong>The Ghost</strong><span>Written by Gypsy Cerys Thorne</span></li></ol><p class="fineprint">Song credits name the writers. Some recordings use AI-generated vocals or instrumentation.</p></div>
+      <div class="radio-cabinet" aria-label="Sounds From The Wild Landing ambient player"><div class="radio-top"><span>THE WILD LANDING</span><span>SOUNDS</span></div><h3>Sounds From The Wild Landing</h3><p class="fineprint">Original ambient soundscapes · No live broadcast</p><div class="radio-display"><span class="eyebrow">FIND YOUR FREQUENCY</span><p id="radio-status" role="status" aria-live="polite">The woods are quiet. Press play to listen.</p></div><button id="radio-toggle" class="radio-play" type="button" aria-pressed="false"><span data-radio-icon aria-hidden="true">▶</span><span data-radio-label>Listen a while</span></button><div class="station-row" role="group" aria-label="Choose a soundscape"><button type="button" data-station="rain" aria-pressed="true">Rain on the Roof</button><button type="button" data-station="night" aria-pressed="false">Evening Woods</button><button type="button" data-station="hearth" aria-pressed="false">By the Hearth</button></div><div class="volume-row"><label for="radio-volume">Volume</label><input id="radio-volume" type="range" min="0" max="100" value="35"></div></div></div>
+      <p class="future-note">Later frequencies: Instrumentals · Meditations · Seasonal Radio · Spoken Poetry · Stories After Dark at The Wild Landing · Christmas at The Wild Landing · Friends of The Wild Landing</p>
+    </div>
+  </section>
+  <section class="destination approved-scene" id="lantern" aria-labelledby="lantern-title">
+    <h2 class="visually-hidden" id="lantern-title">The Lantern by The Wild Landing</h2>
+    <div class="approved-scene-stage lantern-stage">
+      <img src="assets/images/the-wild-landing-lantern-approved.png" alt="The Lantern woodland cottage at twilight, with an open central doorway and a left property destination signpost." width="1536" height="1024" loading="lazy" decoding="async">
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-store" type="button" data-go="store" aria-label="THE STORE sign — go to The Wild Landing Store"></button>
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-bakehouse" type="button" data-go="bakehouse" aria-label="BAKEHOUSE sign — go to the Bakehouse"></button>
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-treehouse" type="button" data-go="little-wilds" aria-label="THE TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-garden" type="button" data-go="garden" aria-label="THE GARDEN sign — go to the Garden"></button>
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-woods" type="button" data-go="woods" aria-label="WOODS &amp; TRAILS sign — go to Woods &amp; Trails"></button>
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-radio" type="button" data-go="radio" aria-label="RADIO sign — go to The Wild Landing Radio"></button>
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-cottage" type="button" data-go="cat-cottage" aria-label="CAT COTTAGE sign — go to Senior Cat Cottage"></button>
+      <button class="approved-scene-hotspot painted-sign lantern-sign lantern-sign-arrival" type="button" data-return-arrival aria-label="ARRIVAL &amp; GATE sign — return to the Arrival Hub"></button>
+      <button class="approved-scene-hotspot painted-sign mobile-painted-sign lantern-signpost" type="button" data-travel="lantern-signs" aria-label="Explore The Lantern property destination signpost"></button>
+      <button class="approved-scene-hotspot lantern-door" type="button" data-destination="lantern" aria-label="Enter The Lantern cottage to open its temporary experience"></button>
+    </div>
+    <div class="scene-access"><span>09 / The Lantern</span><button type="button" data-destination="lantern">Enter The Lantern <span aria-hidden="true">→</span></button></div>
+  </section>
+  <section class="destination approved-scene" id="cat-cottage" aria-labelledby="cat-title">
+    <h2 class="visually-hidden" id="cat-title">The Wild Landing Senior Cat Cottage</h2>
+    <div class="approved-scene-stage cat-cottage-stage">
+      <img src="assets/images/the-wild-landing-cat-cottage-approved.png" alt="The Wild Landing Senior Cat Cottage at dusk, with Duma in the foreground, a cottage doorway, and signs about a future safe place for senior cats." width="1536" height="1024" loading="lazy" decoding="async">
+      <button class="approved-scene-hotspot cat-cottage-door" type="button" data-destination="cat-cottage" aria-label="Enter the Cat Cottage doorway to read what is coming soon"></button>
+      <button class="approved-scene-hotspot cat-cottage-purpose" type="button" data-destination="cat-purpose" aria-label="A Safe Place for Senior Cats sign — read the cottage purpose"></button>
+      <button class="approved-scene-hotspot cat-cottage-support" type="button" data-go="support-cats" aria-label="Support the Future Sanctuary sign — open the existing Senior Cat Cottage support information"></button>
+    </div>
+    <div class="scene-access"><span>10 / Senior Cat Cottage</span><button type="button" data-destination="cat-cottage">Cottage coming soon <span aria-hidden="true">→</span></button><button type="button" data-destination="cat-purpose">A safe place for senior cats <span aria-hidden="true">→</span></button><button type="button" data-go="support-cats">Support information <span aria-hidden="true">→</span></button></div>
+  </section>
+  <section class="support-section paper" id="support" aria-labelledby="support-title">
+    <div class="wrap">
+      <p class="eyebrow">THE SENIOR CAT COTTAGE</p>
+      <h2 id="support-title">A future safe place for senior cats.</h2>
+      <p class="section-intro">The Senior Cat Cottage is still a future physical sanctuary and does not currently house cats. If you'd like to help the wider Wild Landing dream, you can use the same optional Contribution Jar; there is no separate Cottage contribution system.</p>
+      <button class="button button-forest" type="button" data-destination="house-help">Visit the Contribution Jar <span aria-hidden="true">✨</span></button>
+      <div class="founders-path">
+        <h3>The Wild Landing Founders' Path</h3>
+        <p>The Founders' Path is a future idea for recognizing people who help The Wild Landing grow. Whether or how it will work has not been decided. It is not a current reward or promise.</p>
+      </div>
+    </div>
+  </section>
+  <section class="destination approved-scene" id="house" aria-labelledby="house-title">
+    <h2 class="visually-hidden" id="house-title">The House / Our Story</h2>
+    <div class="approved-scene-stage house-stage">
+      <img src="assets/images/the-wild-landing-house-approved.png" alt="The Wild Landing House at dusk, with a front door, a left destination signpost, a Help Build jar and sign, and a Founders' Path sign." width="1536" height="1024" loading="lazy" decoding="async">
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-store" type="button" data-go="store" aria-label="THE STORE sign — go to The Wild Landing Store"></button>
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-bakehouse" type="button" data-go="bakehouse" aria-label="BAKEHOUSE sign — go to the Bakehouse"></button>
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-treehouse" type="button" data-go="little-wilds" aria-label="THE TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-garden" type="button" data-go="garden" aria-label="THE GARDEN sign — go to the Garden"></button>
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-woods" type="button" data-go="woods" aria-label="WOODS &amp; TRAILS sign — go to Woods &amp; Trails"></button>
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-radio" type="button" data-go="radio" aria-label="RADIO sign — go to The Wild Landing Radio"></button>
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-cottage" type="button" data-go="cat-cottage" aria-label="CAT COTTAGE sign — go to Senior Cat Cottage"></button>
+      <button class="approved-scene-hotspot painted-sign house-sign house-sign-lantern" type="button" data-go="lantern" aria-label="THE LANTERN sign — go to The Lantern"></button>
+      <button class="approved-scene-hotspot painted-sign mobile-painted-sign house-signpost" type="button" data-travel="house-signs" aria-label="Explore The House destination signpost"></button>
+      <button class="approved-scene-hotspot house-door" type="button" data-destination="house-story" aria-label="Enter The House to read Our Story"></button>
+      <button class="approved-scene-hotspot house-help-build" type="button" data-destination="house-help" aria-label="Help Build The Wild Landing jar and sign — learn about optional support"></button>
+      <button class="approved-scene-hotspot house-founders" type="button" data-destination="house-founders" aria-label="The Founders' Path sign — preview the future recognition path"></button>
+    </div>
+    <div class="scene-access"><span>11 / The House · Our Story</span><button type="button" data-destination="house-story">Our Story <span aria-hidden="true">→</span></button><button type="button" data-destination="house-help">Help Build <span aria-hidden="true">→</span></button><button type="button" data-destination="house-founders">Founders' Path <span aria-hidden="true">→</span></button></div>
+  </section>
+  <section class="destination approved-scene" id="barn" aria-labelledby="barn-title">
+    <h2 class="visually-hidden" id="barn-title">12 / The Wild Landing Barn and Petting Zoo</h2>
+    <div class="approved-scene-stage barn-stage">
+      <img src="assets/images/the-wild-landing-barn-approved.png" alt="The Wild Landing Barn and future Petting Zoo at sunset, with a large open barn entrance, a Feed the Animals sign, and a wooden signpost pointing to the Garden and Treehouse, Store and Bakehouse, Woods and Trails, and back to the Crossroads." width="1536" height="1024" loading="lazy" decoding="async">
+      <button class="approved-scene-hotspot painted-sign barn-sign barn-sign-garden" type="button" data-go="garden" aria-label="GARDEN sign — go to the Garden"></button>
+      <button class="approved-scene-hotspot painted-sign barn-sign barn-sign-treehouse" type="button" data-go="little-wilds" aria-label="TREEHOUSE sign — go to Little Wilds / Treehouse"></button>
+      <button class="approved-scene-hotspot painted-sign barn-sign barn-sign-store" type="button" data-go="store" aria-label="STORE sign — go to The Wild Landing Store"></button>
+      <button class="approved-scene-hotspot painted-sign barn-sign barn-sign-bakehouse" type="button" data-go="bakehouse" aria-label="BAKEHOUSE sign — go to the Bakehouse"></button>
+      <button class="approved-scene-hotspot painted-sign barn-sign barn-sign-woods" type="button" data-go="woods" aria-label="WOODS &amp; TRAILS sign — go to Woods &amp; Trails"></button>
+      <button class="approved-scene-hotspot painted-sign barn-sign barn-sign-crossroads" type="button" data-return-arrival aria-label="BACK TO THE CROSSROADS sign — return to the Arrival Hub"></button>
+      <button class="approved-scene-hotspot painted-sign mobile-painted-sign barn-signpost" type="button" data-travel="barn-nearby" aria-label="Choose a nearby destination from the Barn signpost"></button>
+      <button class="approved-scene-hotspot barn-door" type="button" data-destination="barn-room" aria-label="Enter the Barn and Petting Zoo — coming soon"></button>
+      <button class="approved-scene-hotspot barn-feed" type="button" data-destination="barn-feed" aria-label="Feed the Animals sign — preview the future feeding activity"></button>
+    </div>
+    <div class="scene-access"><span>12 / The Wild Landing Barn · Petting Zoo</span><button type="button" data-destination="barn-room">Enter the Barn <span aria-hidden="true">→</span></button><button type="button" data-destination="barn-feed">Feed the Animals · coming soon <span aria-hidden="true">→</span></button></div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap"><p class="footer-phrase">COME AS YOU ARE. YOU BELONG HERE.</p><div class="footer-row"><a href="#top">The Wild Landing</a><span>© 2026 The Wild Landing</span><a href="#house">Our Story</a></div></div></footer>
+<dialog id="travel-dialog" class="travel-dialog" aria-labelledby="travel-title">
+  <button class="travel-close" type="button" aria-label="Close destination chooser">Close ×</button>
+  <p class="eyebrow">THE WILD LANDING · INSIDE THE GATE</p>
+  <h2 id="travel-title">Choose your path</h2>
+  <p id="travel-intro">Choose where to go next.</p>
+  <button class="foot-start" id="foot-start" type="button" hidden>Begin the walking route at the Store</button>
+  <div class="travel-options" role="group" aria-label="Destinations">
+    <button type="button" data-go="store">The Wild Landing Store</button>
+    <button type="button" data-go="bakehouse">The Bakehouse</button>
+    <button type="button" data-go="little-wilds">Little Wilds / The Treehouse</button>
+    <button type="button" data-go="garden">The Garden</button>
+    <button type="button" data-go="woods">Woods &amp; Trails</button>
+    <button type="button" data-go="radio">The Wild Landing Radio</button>
+    <button type="button" data-go="lantern">The Lantern</button>
+    <button type="button" data-go="cat-cottage">Senior Cat Cottage</button>
+    <button type="button" data-go="house">The House / Our Story</button>
+    <button type="button" data-go="barn">The Wild Landing Barn / Petting Zoo</button>
+    <button type="button" data-return-arrival hidden>Arrival &amp; Gate</button>
+    <button type="button" data-destination="trails" data-trail="lantern" class="trail-choice" hidden>Lantern Trail · coming soon</button>
+    <button type="button" data-destination="trails" data-trail="creek" class="trail-choice" hidden>Creek Walk · coming soon</button>
+    <button type="button" data-destination="trails" data-trail="wildlife" class="trail-choice" hidden>Wildlife Loop · coming soon</button>
+    <button type="button" data-destination="trails" data-trail="lookout" class="trail-choice" hidden>Lookout Trail · coming soon</button>
+  </div>
+</dialog>
+<dialog id="destination-dialog" class="destination-dialog" aria-label="Explore The Wild Landing"><button class="dialog-close" type="button" data-close-dialog aria-label="Close and return to the property">Close ×</button><div id="destination-content"></div></dialog>
+<template id="room-bakehouse"><div class="room-content"><p class="eyebrow">THE WILD LANDING BAKEHOUSE</p><h2 id="room-bakehouse-title">Coming soon.</h2><p>This is a future digital corner of The Wild Landing. We hope to share recipes, free printable recipes, The Wild Landing cookbook, and more here as they are ready.</p><p class="room-note">A physical Bakehouse and breakfast or lunch offerings are future plans. There is no food ordering here now.</p></div></template>
+<template id="room-little-wilds"><div class="room-content"><p class="eyebrow">LITTLE WILDS / THE TREEHOUSE</p><h2 id="room-little-wilds-title">Today's tiny adventure</h2><p>Find three things you can see, two sounds you can hear, and one texture you can feel. Draw the thing that surprised you most. A window, garden or little patch of outdoors is enough.</p><a class="button button-forest" href="assets/printables/wild-noticing.html">Open the printable activity</a><p class="room-note">Explore with a grown-up. Leave living things where they are.</p></div></template>
+<template id="room-garden"><div class="room-content"><p class="eyebrow">THE GARDEN NOTEBOOK</p><h2 id="room-garden-title">Start with one small thing.</h2><ul><li><strong>Grow Something:</strong> Notice what one plant needs today.</li><li><strong>Pollinator Patch:</strong> Look for a flower and watch who visits.</li><li><strong>From Garden to Kitchen:</strong> Think of one herb or vegetable you could use.</li></ul><p class="room-note">A Garden Journal may grow here later. The physical garden and any habitat certification are future hopes.</p></div></template>
+<template id="room-seed-library"><div class="room-content"><p class="eyebrow">THE GARDEN · SEED LIBRARY</p><h2 id="room-seed-library-title">Seed Library</h2><p>This space is growing. Later, it may share growing information, seed-related resources, and free printable growing guides.</p><p class="room-note">There is no seed catalog or ordering here yet.</p></div></template>
+<template id="room-cat-cottage"><div class="room-content"><p class="eyebrow">THE WILD LANDING SENIOR CAT COTTAGE</p><h2 id="room-cat-cottage-title">The Cottage is coming soon.</h2><p>We hope to create a safe, loving future home for senior cats. The physical cottage is a future plan; it is not open and has no residents yet.</p><p class="room-note">Duma is part of The Wild Landing story. His interactive home will be considered separately later.</p></div></template>
+<template id="room-cat-purpose"><div class="room-content"><p class="eyebrow">A SAFE PLACE FOR SENIOR CATS</p><h2 id="room-cat-purpose-title">A softer next chapter.</h2><p>The hope for the Senior Cat Cottage is a calm, caring place where older cats can be comfortable and valued. It is a future sanctuary goal, not an operating facility today.</p></div></template>
+<template id="room-house-story"><div class="room-content"><p class="eyebrow">THE HOUSE / OUR STORY</p><h2 id="room-house-story-title">Where wild hearts find a place to land.</h2><p>The Wild Landing is a growing online world for nature, creativity, quiet discovery, and belonging. Gypsy is building it to give people a place to wander, make, listen, learn, and feel welcome as they are.</p><p>The larger dream is a real wooded property one day: paths and gathering places, a garden and Bakehouse, Little Wilds adventures, and a gentle home for senior cats. That physical place is a future hope. For now, this digital Wild Landing is where the story begins.</p></div></template>
+<template id="room-house-help"><div class="room-content"><p class="eyebrow">HELP BUILD THE WILD LANDING</p><h2 id="room-house-help-title">The Contribution Jar</h2><p>The Wild Landing is being built little by little—a growing world of stories, creativity, cozy goods, animals, nature, and some very big dreams.</p><p>If you'd like to leave something in the jar, even $1 helps us keep building. There's never any obligation. Wandering here, exploring, and being part of this place matters too.</p><a class="button button-forest" href="https://ko-fi.com/thewildlanding" target="_blank" rel="noopener noreferrer">Add Something to the Jar ✨ <span class="visually-hidden">(opens Ko-fi in a new tab)</span></a><p class="room-note">Ko-fi offers one-time and custom contributions, including $1. Monthly support is available only if you choose it.</p></div></template>
+<template id="room-house-founders"><div class="room-content"><p class="eyebrow">THE FOUNDERS' PATH</p><h2 id="room-house-founders-title">A path still taking shape.</h2><p>The Founders' Path is a future idea for recognizing people who help The Wild Landing grow. Whether or how it will work has not been decided. It is not a current reward or promise.</p></div></template>
+<template id="room-barn-room"><div class="room-content"><p class="eyebrow">THE WILD LANDING BARN · PETTING ZOO</p><h2 id="room-barn-room-title">The Barn is coming soon.</h2><p>This is a future stop on the Wild Landing property. The Barn and Petting Zoo experience is still taking shape; there are no animals here yet.</p><p class="room-note">Come back as this part of the property grows. For now, follow a nearby sign or return to the Crossroads.</p></div></template>
+<template id="room-barn-feed"><div class="room-content"><p class="eyebrow">A FUTURE BARN EXPERIENCE</p><h2 id="room-barn-feed-title">Feed the Animals · coming soon.</h2><p>The Feed Station will eventually introduce a gentle way to meet and care for Barn animals. That activity is not open yet, and no animals are represented as currently living at the Barn.</p></div></template>
+<template id="room-lantern"><div class="room-content"><p class="eyebrow">THE LANTERN · BY THE WILD LANDING</p><h2 id="room-lantern-title">Welcome to The Lantern.</h2><p>This quiet corner is taking shape. The approved Lantern experience—including its card, reading, journal, deck, and guidance features—will be integrated here later.</p><p class="room-note">For now, return to the property and keep wandering. Booking and the deeper Lantern features are not open here yet.</p></div></template>
+<template id="room-trails"><div class="room-content"><p class="eyebrow">WOODS &amp; TRAILS</p><h2 id="room-trails-title">Trails coming soon.</h2><p>Lantern Trail, Creek Walk, Wildlife Loop, and Lookout Trail are future paths. More places to wander and discoveries to make will open as The Wild Landing grows.</p></div></template>
+<template id="room-woods"><div class="room-content"><p class="eyebrow">WOODS &amp; TRAILS</p><h2 id="room-woods-title">Choose a wandering way.</h2><div class="trail-options"><button type="button" data-destination="garden">The quiet path · Garden</button><button type="button" data-destination="little-wilds">The curious path · Treehouse</button><button type="button" data-destination="bakehouse">The homeward path · Bakehouse</button></div></div></template>
+</body>
+</html>
